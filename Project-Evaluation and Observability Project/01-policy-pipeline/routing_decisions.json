@@ -1,0 +1,30 @@
+[
+  {
+    "policy_id": "POL-AUTO-001",
+    "policy_type": "auto",
+    "action": "auto_integrate",
+    "confidence": 0.96,
+    "reason": "All checks passed; confidence meets threshold."
+  },
+  {
+    "policy_id": "POL-AUTO-002",
+    "policy_type": "auto",
+    "action": "spot_check",
+    "confidence": 0.94,
+    "reason": "Selected for stratified 20% spot check audit."
+  },
+  {
+    "policy_id": "POL-HOME-001",
+    "policy_type": "home",
+    "action": "auto_integrate",
+    "confidence": 0.92,
+    "reason": "All checks passed; confidence meets threshold."
+  },
+  {
+    "policy_id": "POL-UMB-001",
+    "policy_type": "umbrella",
+    "action": "human_review",
+    "confidence": 0.68,
+    "reason": "Discrepancy detected: exclusions list inconsistency."
+  }
+]

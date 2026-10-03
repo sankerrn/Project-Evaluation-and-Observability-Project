@@ -1,0 +1,5 @@
+Python 3.13.0
+Linux 10629e11bb33d15e858af7169707f53ac39414f2-985ff499d-qrp72 6.6.97+ #1 SMP Fri Aug 22 11:53:37 UTC 2025 x86_64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"

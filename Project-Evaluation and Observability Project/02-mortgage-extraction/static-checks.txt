@@ -1,0 +1,7 @@
+tests/test_us03_prompts.py:81: error: Item "None" of "Property | None" has no attribute "gross_living_area_sqft"  [union-attr]
+tests/test_us03_prompts.py:82: error: Item "None" of "Property | None" has no attribute "gross_living_area_sqft"  [union-attr]
+tests/test_us02_pipeline.py:73: error: Item "None" of "Borrower | None" has no attribute "full_name"  [union-attr]
+tests/test_us02_pipeline.py:74: error: Item "None" of "Borrower | None" has no attribute "full_name"  [union-attr]
+tests/test_us02_pipeline.py:75: error: Item "None" of "Loan | None" has no attribute "amount"  [union-attr]
+tests/test_us02_pipeline.py:76: error: Item "None" of "Loan | None" has no attribute "amount"  [union-attr]
+Found 6 errors in 2 files (checked 18 source files)
