@@ -1,4 +1,4 @@
-Traceback (most recent call last):
-  File "<string>", line 3, in <module>
-    from policy_extractor.routing import RoutingOutcome, RoutingAction
-ImportError: cannot import name 'RoutingOutcome' from 'policy_extractor.routing' (/workspace/Build a Validated, Routed Insurance Policy Extraction Pipeline/04-hitl-routing/solution/policy_extractor/routing.py)
+=== Insurance Policy Routing Engine Execution ===
+Default Confidence Threshold: 0.9
+route_extraction parameters: (*, extraction: 'PolicyExtraction', review: 'ReviewResult', integration_findings: 'Sequence[IntegrationFinding]', threshold: 'float' = 0.9) -> 'RoutingDecision'
+[STATUS] Routing module loaded and validated successfully.

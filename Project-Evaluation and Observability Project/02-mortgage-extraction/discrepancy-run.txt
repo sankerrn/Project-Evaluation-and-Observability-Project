@@ -1,12 +1,34 @@
-============================= test session starts ==============================
-platform linux -- Python 3.13.0, pytest-9.1.1, pluggy-1.6.0 -- /workspace/Build a Resilient Mortgage Document Extraction System/04-validate-mathematical-consistency/solution/.venv/bin/python3.13
-cachedir: .pytest_cache
-rootdir: /workspace/Build a Resilient Mortgage Document Extraction System/04-validate-mathematical-consistency/solution
-configfile: pyproject.toml
-testpaths: tests
-plugins: anyio-4.15.1
-collecting ... collected 25 items / 24 deselected / 1 selected
-
-tests/test_us04_validator.py::test_ac_04_03_discrepancy_carries_field_calc_stated_delta PASSED [100%]
-
-======================= 1 passed, 24 deselected in 1.42s =======================
+{
+  "extraction": {
+    "borrower": {
+      "full_name": "Marcus T. Hollingsworth",
+      "coborrower_name": null,
+      "ssn_last4": null,
+      "date_of_birth": null,
+      "email": null,
+      "phone": null
+    },
+    "property": null,
+    "loan": null,
+    "income": {
+      "base_monthly": 5416.67,
+      "bonus_monthly": 1250.0,
+      "bonus_ytd": null,
+      "commission_monthly": 2140.0,
+      "overtime_monthly": 385.5,
+      "other_monthly": 450.0,
+      "stated_monthly_total": 10892.17
+    }
+  },
+  "validation": {
+    "consistent": false,
+    "discrepancies": [
+      {
+        "field": "total_monthly_income",
+        "calculated": 9642.17,
+        "stated": 10892.17,
+        "delta": -1250.0
+      }
+    ]
+  }
+}

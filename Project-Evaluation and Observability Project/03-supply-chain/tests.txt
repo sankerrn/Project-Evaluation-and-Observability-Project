@@ -1,9 +1,10 @@
 ============================= test session starts ==============================
-platform linux -- Python 3.13.0, pytest-9.1.1, pluggy-1.6.0 -- /workspace/Investigate Supply Chain Risk with Multi-Source Synthesis/03-resilient-coordinator/solution/.venv/bin/python3.13
+platform linux -- Python 3.13.0, pytest-9.1.1, pluggy-1.6.0 -- /opt/venv/bin/python
 cachedir: .pytest_cache
 rootdir: /workspace/Investigate Supply Chain Risk with Multi-Source Synthesis/03-resilient-coordinator/solution
 configfile: pyproject.toml
-plugins: anyio-4.15.1
+plugins: asyncio-1.4.0, anyio-4.14.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
 collecting ... collected 34 items
 
 tests/test_coordinator.py::test_logistics_timeout_returns_partial_and_context PASSED [  2%]
@@ -41,4 +42,4 @@ tests/test_synthesis.py::test_three_sections_with_attribution PASSED     [ 94%]
 tests/test_synthesis.py::test_empty_section_renders_none PASSED          [ 97%]
 tests/test_synthesis.py::test_coverage_badges PASSED                     [100%]
 
-============================= 34 passed in 29.82s ==============================
+======================== 34 passed in 63.72s (0:01:03) =========================

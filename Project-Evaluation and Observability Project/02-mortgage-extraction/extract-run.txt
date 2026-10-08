@@ -1,11 +1,27 @@
-============================= test session starts ==============================
-platform linux -- Python 3.13.0, pytest-9.1.1, pluggy-1.6.0 -- /workspace/Build a Resilient Mortgage Document Extraction System/04-validate-mathematical-consistency/solution/.venv/bin/python3.13
-cachedir: .pytest_cache
-rootdir: /workspace/Build a Resilient Mortgage Document Extraction System/04-validate-mathematical-consistency/solution
-configfile: pyproject.toml
-plugins: anyio-4.15.1
-collecting ... ERROR: file or directory not found: tests/test_extract.py
-
-collected 0 items
-
-============================ no tests ran in 0.05s =============================
+{
+  "extraction": {
+    "borrower": {
+      "full_name": "Daniel R. Whitfield",
+      "coborrower_name": null,
+      "ssn_last4": null,
+      "date_of_birth": null,
+      "email": null,
+      "phone": null
+    },
+    "property": null,
+    "loan": null,
+    "income": {
+      "base_monthly": 5673.08,
+      "bonus_monthly": null,
+      "bonus_ytd": null,
+      "commission_monthly": null,
+      "overtime_monthly": null,
+      "other_monthly": null,
+      "stated_monthly_total": null
+    }
+  },
+  "validation": {
+    "consistent": true,
+    "discrepancies": []
+  }
+}
